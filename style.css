@@ -295,8 +295,8 @@ span {
 
 .fifth-img-container img:hover {
   box-shadow: -3px -3px 20px 0.5px rgba(179, 177, 177, 0.935);
-  transform: translateY(-4px) translateX(-4px);
-  transition: all .33s ease-in;
+  transform: translateY(4px) translateX(4px);
+  transition: all .15s ease-in-out;
 }
 
 .fifth-text-box {
@@ -422,7 +422,7 @@ input:hover {
 
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 576px) {
 
   .fifth-img-container {
     display: flex;
@@ -475,31 +475,40 @@ input:hover {
   }
 
   .Flower-cart {
+
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    
   }
 
   .Flower-cart1 {
-    width: 90%;
+    width: 350px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 20px 10px;
 
   }
-
+.Flower-cart1 img{
+  width: 85%;
+}
   .flower-box1 {
-    width: 90%;
+    width: 100%;
+    margin-bottom: 20px;
   }
 
   .flower-box2 {
-    width: 90%;
+    
+   width: 100%;
+   margin-bottom: 20px;
   }
 
   .flower-box3 {
-    width: 90%;
+    width: 100%;
+    margin-bottom: 20px;
   }
 
   .thrd-container {

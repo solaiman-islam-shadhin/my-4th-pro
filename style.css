@@ -134,6 +134,7 @@ body{
   align-items: end;
   border-radius: 300px 300px 0px 0px;
   background: rgba(167, 33, 98, 0.15);
+  transition: transform 1.3s;
 }
 
 .flower-box2 {
@@ -144,7 +145,7 @@ body{
   align-items: end;
   border-radius: 300px 300px 0px 0px;
   background: rgba(5, 151, 160, 0.15);
-
+  transition: transform 1.3s;
 }
 
 .flower-box3 {
@@ -155,6 +156,7 @@ body{
   align-items: end;
   border-radius: 300px 300px 0px 0px;
   background: rgba(71, 125, 17, 0.15);
+  transition: transform 1.3s;
 }
 
 #fl-box-img2 {
@@ -163,20 +165,23 @@ body{
 
 .flower-box1:hover {
   box-shadow: -3px -3px 20px 0.5px rgba(203, 203, 203, 0.885);
-  transform: translateY(-4px) translateX(-4px);
-  transition: all .33s ease-in;
+  transform: scale(1.05);
+
+
+
+  
 }
 
 .flower-box2:hover {
   box-shadow: -3px -3px 20px 0.5px rgba(210, 209, 209, 0.881);
-  transform: translateY(-4px) translateX(-4px);
-  transition: all .33s ease-in;
+  transform: scale(1.05);
+  
 }
 
 .flower-box3:hover {
   box-shadow: -3px -3px 20px 0.5px rgba(204, 204, 204, 0.935);
-  transform: translateY(-4px) translateX(-4px);
-  transition: all .33s ease-in;
+  transform: scale(1.05);;
+ 
 }
 
 
@@ -285,18 +290,24 @@ span {
 
 }
 
+
 .fifth-img-container {
   display: flex;
   justify-content: center;
   gap: 1.5%;
-
+  transition: transform 1s ;
 
 }
+.fifth-img-container img {
 
+  transition: transform 1.3s ;
+
+}
 .fifth-img-container img:hover {
   box-shadow: -3px -3px 20px 0.5px rgba(179, 177, 177, 0.935);
-  transform: translateY(4px) translateX(4px);
-  transition: all .15s ease-in-out;
+  transform: scale(1.1);
+  
+  border-radius: 5px;
 }
 
 .fifth-text-box {

@@ -21,14 +21,19 @@ body{
   justify-content: space-between;
   align-items: center;
   padding: 0px 11%;
-  height: 38%;
+  height: auto;
   gap: 4%;
+  transition: transform 1s;
 }
 
 .first-sec-text {
   width: 39%;
 }
-
+#fl-1{
+  position: relative;
+  bottom: -4px;
+  margin-top: 20px;
+}
 .first-sec-text h2 {
   color: rgb(39, 39, 39);
   font-family: Lato;
@@ -68,9 +73,8 @@ body{
   scale: 1.05;
 }
 .container:hover {
-  box-shadow: -3px -3px 20px 0.5px rgba(203, 203, 203, 0.885);
-  transform: translateY(4px) translateX(-4px);
-  transition: all .33s ease-in;
+  box-shadow: 1px 1px 10px 0.2px rgb(236, 128, 151);
+  transform: scale(1.03);
 }
 
 /* 2nd section */
@@ -165,7 +169,7 @@ body{
 
 .flower-box1:hover {
   box-shadow: -3px -3px 20px 0.5px rgba(203, 203, 203, 0.885);
-  transform: scale(1.05);
+  transform: scale(1.03);
 
 
 
@@ -174,13 +178,13 @@ body{
 
 .flower-box2:hover {
   box-shadow: -3px -3px 20px 0.5px rgba(210, 209, 209, 0.881);
-  transform: scale(1.05);
+  transform: scale(1.03);
   
 }
 
 .flower-box3:hover {
   box-shadow: -3px -3px 20px 0.5px rgba(204, 204, 204, 0.935);
-  transform: scale(1.05);;
+  transform: scale(1.03);;
  
 }
 
@@ -243,12 +247,13 @@ body{
   padding: 4% 21%;
   gap: 10%;
   margin-bottom: 6%;
+  transition: transform 1s;
 }
 
 .frth-container:hover {
-  box-shadow: -3px -3px 20px 0.5px rgba(179, 177, 177, 0.935);
-  transform: translateY(-4px) translateX(-4px);
-  transition: all .33s ease-in;
+  box-shadow: -1px -1px 10px 0.2px  rgb(236, 128, 151);
+  transform: scale(0.98);
+  
 }
 
 .frth-text-container {
@@ -300,14 +305,14 @@ span {
 }
 .fifth-img-container img {
 
-  transition: transform 1.3s ;
+  transition: transform 1s ;
 
 }
 .fifth-img-container img:hover {
-  box-shadow: -3px -3px 20px 0.5px rgba(179, 177, 177, 0.935);
-  transform: scale(1.1);
+  box-shadow: 1px 1px 10px 0.2px  rgb(236, 128, 151);
+  transform: scale(1.03);
+ 
   
-  border-radius: 5px;
 }
 
 .fifth-text-box {
